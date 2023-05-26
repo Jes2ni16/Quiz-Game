@@ -1,0 +1,37 @@
+.body{
+background-color: #f5ebe0;
+
+}
+input{
+    max-width: 20%;
+}
+#game{
+width: 50%;
+height: 50%;
+border: 1px solid black;
+padding: 50px;
+
+}
+#answerBtn .ans{
+    width:90%;
+ margin-left: 5%;
+ margin-top: 10px;
+    background-color: #f5ebe0;
+    
+}
+#nextBtn{
+    background-color: #8d99ae;
+    width: 40%;
+    margin-left: 55%;
+    display: none;
+    
+}
+#answerBtn .ans:hover{
+    background-color: #d6ccc2;
+}
+.t{
+    background-color: #06d6a0;
+}
+.incorrect{
+    background-color: #d62828;
+}

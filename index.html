@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="body">
+    <div id="startScreen">
+      <div
+        class="container1 d-flex align-items-center vh-100 justify-content-center flex-column"
+      >
+        <h1>Let's Take a Short Quizz</h1>
+        <label for="name" class="fs-3">Enter your Name:</label>
+        <input type="text" id="name" />
+        <button onclick="start()" class="btn btn-lg bg-primary mt-3">
+          asas
+        </button>
+      </div>
+    </div>
+    <div id="containerAll">
+      <header id="head">
+        <div class="h2 text-center">
+          GoodLuck &nbsp; <span id="userName" class="h1"></span>
+        </div>
+        <div class="row container mx-auto">
+          <p class="col-6 fs-2">Question#: <span id="questionNumber"></span></p>
+          <p class="col-6 fs-2">Points: <span id="points"></span></p>
+        </div>
+      </header>
+      <div id="game" class="mx-auto my-5">
+        <h2 id="question" class="text-center">Question Here</h2>
+        <div id="answerBtn" class="">
+          <button class="btn ans">answer1</button>
+          <button class="btn ans">answer1</button>
+          <button class="btn ans">answer1</button>
+          <button class="btn ans">answer1</button>
+        </div>
+
+        <button id="nextBtn" class="btn btn-lg my-3">NExt</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
